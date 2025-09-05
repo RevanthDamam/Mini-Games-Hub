@@ -8,6 +8,7 @@ import Sudoku from "./pages/Sudoku";
 import RockPaperScissors from "./pages/RockPaperScissors";
 import MemoryGame from "./pages/MemoryGame";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { Toaster } from "./components/ui/toaster";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/memory" element={<MemoryGame />} />
         </Routes>
         <Toaster />
+        <Footer />
       </BrowserRouter>
     </div>
   );
